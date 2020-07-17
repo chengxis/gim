@@ -1,0 +1,60 @@
+<!--pages/34/34.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="header">
+        <image src="http://www.5ijim.com/images/logo_new.png" class="logoimg"/>
+        <text class="header-title">在线预约试听</text>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="form">
+        <view class="input-div" style="margin-top:15%">
+          <text class="input-text">宝宝姓名:</text>
+          <view class="input-view" >
+            <input class="input" placeholder-style="color:rgba(78,196,200,.4)" bindinput="listenerNameInput" style="color: #4ec4c8;" placeholder="请输入姓名"/>
+          </view>
+        </view>
+        <view class='input-div'>
+          <text class='input-text' style='color: #4ec4c8;'>宝宝年龄:</text>
+          <view class="input-view" >
+            <picker bindchange="bindPickerAgeChange" value="{{index}}" range="{{ageList}}">
+              <view class="picker">
+                <view class="input" style='margin-top:20rpx;'>
+                <text wx:if="{{!index}}" style="color:rgba(78,196,200,.4)">请选择年龄</text>
+                <text wx:if="{{index}}" style="color: #4ec4c8;">{{ageList[index]}}</text>
+                </view>
+              </view>
+            </picker>
+          </view>      
+        </view>
+        <view class='input-div'>
+          <text class='input-text' style='color: #4ec4c8;'>家长手机:</text>
+            <view class="input-view">
+                 <!-- <input class="input" placeholder-style="color:rgba(78,196,200,.4)" bindinput="listenerNameInput" style="color: #4ec4c8;" placeholder="请输入姓名"/> -->
+
+              <input class="input" type="number" placeholder-style="color:rgba(78,196,200,.4" bindinput="listenerPhoneInput" style="color: #4ec4c8;" placeholder="请输入手机号"/>
+            </view>
+        </view>
+        <view class="input-div">
+          <text class="input-text">预约中心:</text>
+          <view class="input-view">
+            <picker mode="multiSelector" bindchange="bindMultiPickerCenterChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{centerList}}">
+              <view class="picker">
+                <view class="input" style="margin-top:20rpx;">
+                <text wx:if="{{!isShowCenter}}" style="color:rgba(78,196,200,.4)">请选择预约中心</text>
+                <text wx:if="{{isShowCenter}}" style="color: #4ec4c8;">{{centerList[multiIndex[0]]+'-'+centerList[1][multiIndex[1]] + '-' + centerList[2][multiIndex[2]]}}</text>
+                </view>
+              </view>
+            </picker>
+          </view>
+
+        </view>
+        <button style="margin-left: 30rpx; margin-right: 30rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="listenerLogin">提交</button>
+      </view>
+    
+    
+    
+    </view>
+  </view>
+</view>

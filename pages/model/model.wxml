@@ -1,0 +1,5 @@
+<navigator url="/pages/test/test" open-type="navigate" hover-class="other-navigator-hover" class="plate-item">
+<view class='login-view'>
+    <text class='login-text' style='color: #fff;'>立即预约</text>
+</view>
+</navigator>

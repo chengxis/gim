@@ -1,0 +1,65 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="title">
+        <image class="title-ima" src="http://www.5ijim.com/images/join_banner3.jpg"/>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="content">
+        <view class="app-title">最新活动</view>
+        <loading hidden="{{loadingHidden}}">加载中...</loading>
+        <view wx:for="{{news}}" wx:key="*this.id">
+          <navigator url="/pages/view/view?id={{item.id}}" hover-class="changestyle" class="con-item">
+            <image src="{{item.pic}}" class="actionpic"></image>
+              <view class='item-list'>
+                <view class='item-title'>
+                  <text>{{item.title}}</text>
+                </view>
+                <view class='item-time'>
+                  <text style='color:	#696969;'>{{item.uptime}}</text>
+                </view> 
+              </view>
+          </navigator>
+        </view>
+        
+        <!-- <view wx:for="{{news}}">
+          <navigator class="con-item" url="/pages/view/view?id={{item.id}}" hover-class="changestyle">
+            <image src="{{item.pic}}" class="actionpic"/>
+              <view class="item-list">
+                <view class="item-title"></view>
+                  <text>{{item.title}}</text>
+              </view>
+              <view class="item-time">
+                <text style="color:#696969">{{item.uptime}}</text>
+              </view>
+          </navigator>
+        </view> -->
+      </view>
+    </view>
+    <view class="page-section">
+      <include src='../model/model.wxml'/>   
+    </view>
+  </view>
+</view>
+
+<!-- <view class="content">
+  <view class="app-title">最新活动</view>
+    <loading hidden="{{loadingHidden}}">
+        加载中...
+    </loading>
+    <view wx:for="{{news}}">
+      <navigator url="/pages/view/view?id={{item.id}}" hover-class="changestyle" class="con-item">
+      <image src="{{item.pic}}" class="actionpic"></image>
+        <view class='item-list'>
+          <view class='item-title'>
+            <text>{{item.title}}</text>
+          </view>
+          <view class='item-time'>
+          <text style='color:	#696969;'>{{item.uptime}}</text>
+          </view> 
+        </view>
+      </navigator>
+    </view>
+  <include src='../model/model.wxml'/>
+</view>  -->

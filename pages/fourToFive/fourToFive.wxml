@@ -1,0 +1,72 @@
+<view>
+ <image class='title-image' src='http://www.5ijim.com/images/course_banner.jpg'></image>
+</view>
+<view class="story-lists">
+  <view class="box">
+      <view class="text">
+          <text>谁让船沉了</text> 
+          <view class="des">
+            <text>在了解沉浮和下沉概念的基础上，通过使用模型模拟运送小动物过河的难题，了解关于船载重的知识，从不同角度分析沉船的原因，熟悉重量的概念。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/b1.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>他们有多高</text>
+          <view class="des">
+            <text>通过趣味测量游戏和挑战，体验用独立相同的单元测量比较物体高度，从本质上理解长度概念与测量原理。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/b2.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>环保小卫士</text>
+          <view class="des">
+            <text>通过动手操作，体验物体大小与可穿过空间大小的关系，并能根据物体的磁性、溶解性、沉浮状态等，合理选择工具对混合物进行筛选和分离。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/b3.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>食物变色记</text>
+          <view class="des">
+            <text>探索常见食物，探索获取不同果蔬色素的方法并用来作画。观察植物天然色素在酸性和碱性条件下的反应，认识淀粉并体验用碘酒判断哪些食物中含有淀粉。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/b4.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>好厉害的面条</text>
+          <view class="des">
+            <text>利用意大利面这种常见材料，通过公平实验进行三种意大利面的强度测试，从长度、数量、角度、粗细等不同角度探索影响材料强度的因素。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/b5.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>尿不湿的秘密</text>
+          <view class="des">
+            <text>探究尿不湿超强吸水性的秘密，拆解产品并设计使用滴管精确测量吸水性的方法，通过实验探索影响吸水性的因素。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/b6.jpg" class="payico"></image>
+      </view>
+  </view>
+  <include src='../model/model.wxml'/>
+</view>

@@ -1,0 +1,34 @@
+/**about.wxss**/
+.page-phone{
+  font-family: '微软雅黑';
+}
+.header{
+  padding: 41rpx;
+  position: relative;
+  text-align: center;
+}
+.wx-title{
+  font-size: 46rpx;
+  font-weight: bold;
+}
+.wx-desc{
+  font-size: 32rpx;
+  color: #aaa;
+  line-height: 67rpx;
+}
+.logoimg{
+  width:100%;
+  height:235rpx;
+}
+.input{
+    padding-left: 10px;
+    height: 44px;
+}
+
+.inputView{
+    border:  2px solid #4ec4c8;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}

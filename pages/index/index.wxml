@@ -1,0 +1,153 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section" style="margin-bottom:0;">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+        <block wx:for="{{imgUrls}}" wx:key="*this" >
+          <swiper-item>
+            <image src="{{item}}" class="slide-image"/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="page-section" >
+      <view class="plate">
+        <navigator url="/pages/threeToFour/threeToFour" open-type="navigate" hover-class="other-navigator-hover" class="plate-item">
+          <view class="plate-item-content">
+            <image src="{{a1src}}"></image>
+            <text class="plate-info">3-4岁</text>
+          </view>
+        </navigator>
+        <navigator url="/pages/fourToFive/fourToFive" open-type="navigate" hover-class="other-navigator-hover" class="plate-item">
+          <view class="plate-item-content">
+            <image src="{{a2src}}"></image>
+            <text class="plate-info">4-5岁</text>
+          </view>
+        </navigator>
+        <navigator url="/pages/fiveToSix/fiveToSix" hover-class="navigator" class="plate-item">
+          <view class="plate-item-content">
+            <image src="{{a4src}}"></image>
+            <text class="plate-info">5-6岁</text>
+          </view>     
+        </navigator>
+        <navigator url="/pages/sixToTen/sixToTen" hover-class="navigator" class="plate-item">
+          <view class="plate-item-content">
+            <image src="{{a3src}}"></image>
+            <text class="plate-info">6-10岁</text>
+          </view>     
+        </navigator>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="split-bar"></view>
+    </view>
+    <view class="page-section">
+      <view class='band'>
+        <view class="title">好奇心改变世界</view>
+          <view class='mcont'>
+            <view class='mcont-li'  style='border:1px solid #00c19c;border-radius:15rpx'>
+              <text class='li-title' style='color: #00c19c;'>亲历</text>
+              <text class='li-content'>引导孩子亲历科学与人文现象的观察，体验问题发现与解决的过程，在亲历中动手，在动手中学习。</text>
+            </view>
+          </view>
+          <view class='mcont'>
+            <view class='mcont-li'  style='border:1px solid #44c6c4;border-radius:15rpx'>
+              <text class='li-title' style='color: #44c6c4;'>思考</text>
+              <text class='li-content'>让孩子能主动提出问题、设想与预测、设计实验、动手实验、观察记录，学会探究与思考。</text>
+            </view>
+          </view>
+          <view class='mcont'>
+            <view class='mcont-li'  style='border:1px solid #ffcd4a;border-radius:15rpx;'>
+              <text class='li-title' style='color: #ffcd4a;'>合作</text>
+              <text class='li-content'>使孩子在探究过程中学会与他人交流，乐于与他人分享，善于与他人合作。</text>
+            </view>
+          </view>
+          <view class='mcont'>
+            <view class='mcont-li'  style='border:1px solid #ff5e3b;border-radius:15rpx;'>
+              <text class='li-title' style='color: #ff5e3b;'>表达</text>
+              <text class='li-content'>为孩子提供能学会流畅表达自己观察结果清晰表达思维过程的机会和环境。</text>
+            </view>
+          </view>
+          <view class='mcont'>
+            <view class='mcont-li'  style='border:1px solid #6C8DD5;border-radius:15rpx'>
+              <text class='li-title' style='color: #6C8DD5;'>获得</text>
+              <text class='li-content'>使孩子在积极主动的探究过程中，潜移默化获得科学方法、科学精神与科学知识。</text>
+            </view>
+        </view>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="split-bar"></view>
+    </view>
+    <view class="page-section">
+      <view class="lesson">
+        <view class="title">STEM课程</view>
+        <view class="ul">
+          <view class="lesson-list">
+            <view class="box">
+              <text>寻找彩虹之旅</text>
+              <view class="description">通过科学绘本认识各种颜色，通过游戏寻找生活中的各种颜色。在认识颜色的基础上，体验将两种以上不同颜色混合获得新的颜色。</view>
+              </view>
+            <view class="img">
+              <image src="http://www.5ijim.com/images/course/a1.jpg" class="payico"/>
+            </view>
+          </view>
+          <view class="lesson-list">
+            <view class="box">
+              <text>小新的秘密</text>
+              <view class="description">认识空气的存在，了解空气的重要性，并根据空气的性质，通过科学实验探究，进一步体验空气的存在和作用。
+              </view>
+            </view>
+            <view class="img">
+              <image src="http://www.5ijim.com/images/course/a2.jpg" class="payico"/>
+            </view>
+          </view>
+          <view class="lesson-list">
+            <view class="box">
+              <text>喜欢对称的花大姐</text>
+              <view class="description">认识瓢虫，了解瓢虫与人类的关系，初步了解对称图形，设计创作简单的对称图形。了解瓢虫的生长流程，并通过舞台剧表演出来。
+              </view>
+            </view>
+            <view class="img">
+              <image src="http://www.5ijim.com/images/course/a5.jpg" class="payico"/>
+            </view>
+          </view>
+          <view class="lesson-list">
+            <view class="box">
+              <text>环保小卫士</text>
+              <view class="description">通过动手操作，体验物体大小与可穿过空间大小的关系，并能根据物体的磁性、溶解性、沉浮状态等，合理选择工具对混合物进行筛选和分离。
+              </view>
+            </view>
+            <view class="img">
+              <image src="http://www.5ijim.com/images/course/b3.jpg" class="payico"/>
+            </view>
+          </view>
+          <view class="lesson-list">
+            <view class="box">
+              <text>食物变形记</text>
+              <view class="description">探索常见食物，探索获取不同果蔬色素的方法并用来作画。观察植物天然色素在酸性和碱性条件下的反应，认识淀粉并体验用碘酒判断哪些食物中含有淀粉。
+              </view>
+            </view>
+            <view class="img">
+              <image src="http://www.5ijim.com/images/course/b4.jpg" class="payico"/>
+            </view>
+
+          </view>
+          <view class="lesson-list">
+            <view class="box">
+              <text>好厉害的面条</text>
+              <view class="description">利用意大利面这种常见材料，通过公平实验进行三种意大利面的强度测试，从长度、数量、角度、粗细等不同角度探索影响材料强度的因素。
+              </view>
+            </view>
+            <view class="img">
+              <image src="http://www.5ijim.com/images/course/b5.jpg" class="payico"/>
+            </view>
+          </view>   
+        </view>      
+      </view>
+    </view>
+    <view class="page-section">
+      <include src='../model/model.wxml'/>   
+    </view>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+<!-- pages/school/school.wxml
+<text>pages/school/school.wxml</text> -->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="title">
+        <image class="title-ima" src="http://www.5ijim.com/images/join_banner3.jpg"/>
+      </view>
+    </view>
+    <view class="page-section">
+     <view class="content">
+      <view class="title-text">
+        <text>东大吉姆的工场  </text>
+        <text style='color: #e25a5a;'>孩子启蒙教育的领导者</text>
+      </view>
+      <view class="li" wx:for="{{4}}" wx:for-index="idx" wx:key="idx" style="background:url({{background[idx]}});background-size:740rpx auto" >
+        <view class="title-div">
+          <text class="li-title" style="color:#FFFFFF">{{liTitle[idx]}}</text>
+        </view>
+        <view class="content-div">
+          <text class="li-content" style="color:#FFFFFF">{{liContent[idx]}}</text>
+        </view>
+      </view>
+     </view>
+    </view>
+    <view class="page-section">
+      <view class="stem">
+        <text class="stem-class">课程体系</text>
+        <view class="stem-li" wx:for="{{2}}" wx:for-index="idx2" wx:key="idx2">
+          <view class="foreign-circle">
+            <view class="internal-circle" style="background:rgb(75,113,161)">
+              <view class="cicle-title" style="position:relative;top:20rpx">
+                <text>{{cicleTitle[idx2]}}</text>
+              </view>
+              <view class="cicle-content" style="position:relative;top:30rpx">
+                <text>{{cicleContent[idx2]}}</text>
+              </view>
+            </view>
+          </view>
+        </view>       
+      </view>
+    </view>
+    <view class="page-section">
+      <navigator url="/pages/Join/Join" open-type="navigate" hover-class="other-navigator-hover" class="plate-item">
+        <view class='login-view'>
+          <text class='login-text' style='color: #fff;'>申请加盟</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

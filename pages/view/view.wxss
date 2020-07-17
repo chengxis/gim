@@ -1,0 +1,3 @@
+/* pages/view/view.wxss */
+@import "/wxParse/wxParse.wxss";
+@import "/pages/model/model.wxss";

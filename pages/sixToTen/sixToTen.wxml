@@ -1,0 +1,73 @@
+<view>
+ <image class='title-image' src='http://www.5ijim.com/images/course_banner.jpg'></image>
+</view>
+<view class="story-lists">
+  <view class="box">
+      <view class="text">
+          <text>做一个水钟</text> 
+          <view class="des">
+            <text>了解古代计时方法，通过实验探究影响滴水速度的因素，选择合适材料，设计和制作出能计量不同时间的水钟。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/d1.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>
+行走的光</text>
+          <view class="des">
+            <text>通过各种发光体，进行不同实验，认识到光沿直线传播的性质，通过有趣的反射游戏，初步获得对光反射的认识。利用学到的知识，设计制作独特的小夜灯。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/d2.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>钥匙提示器</text>
+          <view class="des">
+            <text>忘记拔钥匙生活中常见的烦恼，为了解决这个问题，将利用已有的电路知识，在老师的指导下，合作设计并制作钥匙提示器。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/d3.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>太阳能风扇</text>
+          <view class="des">
+            <text>太阳能是如何让电器工作的？通过拆解并观察太阳能计算器的太阳能电池板，了解太阳能发电原理，并完成太阳能风扇的设计和制作。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/d4.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>椅中之王</text>
+          <view class="des">
+            <text>回顾椅子发展史，发现椅子结构特点，动手体验材料与连接方式对椅子承重性的影响。按照工业设计流程，合作并设计制作可以坐的瓦楞纸椅子，并进行承重挑战。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/d5.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>微型吸尘器</text>
+          <view class="des">
+            <text>通过拆分了解吸尘器的基本结构，将学过的伯努利原理的知识迁移至吸尘器的应用上，动手制作一个利用气流与压力吸尘的吸尘器模型。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/d6.jpg" class="payico"></image>
+      </view>
+  </view>
+  <include src='../model/model.wxml'/>
+</view>

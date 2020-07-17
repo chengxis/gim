@@ -1,0 +1,54 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="header">
+        <view class="wx-title">
+          <image src="http://www.5ijim.com/images/logo_new.png" class="logoimg"/>
+        </view>
+        <view>
+          <view class="button-view">
+            <button class="button" wx:for="{{cityList}}" wx:for-item="city" wx:key="*this" size="mini" id="{{city}}" bindtap="setdata">{{city}}</button>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="page-section">
+      <loading hidden="{{loadingHidden}}">加载中</loading>
+      <view class="app-title">{{cityName}}</view>
+      <view wx:for="{{center}}" wx:key="*this">
+        <view class="content">
+          <!-- 这里显示图片-->
+          <view wx:if="item.image">
+            <image class="item-image" src="{{item.image}}"></image>
+          </view>
+          <view wx:else>
+            <image src="../../image/logo.jpg"></image>
+          </view>
+          <!--这里显示center.title-->
+          <view class="content-title">{{item.title}}</view>
+          <!--这里显示地址和联系电话-->
+          <view class="wx-cell">
+            <!--显示地址图标-->
+            <view class="icon">
+              <image class="icon-postion" src="{{addrimg}}"></image>
+            </view>
+            <!--x显示具体地址-->
+            <view class="cell-bd">{{item.address}}</view>
+          </view>
+          <!--显示联系电话-->
+          <view wx:for="{{item.phone}}" wx:for-item="itemiphone" wx:key="*this">
+            <view class="wx-cell">
+              <view class="icon">
+                <image class="icon-postion" src="{{phoneimg}}"></image>
+              </view>
+              <view class="cell-bd">{{itemiphone}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="page-section">
+      <include src='../model/model.wxml'/>
+    </view>
+  </view>
+</view>

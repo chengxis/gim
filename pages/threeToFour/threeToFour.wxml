@@ -1,0 +1,73 @@
+
+<view>
+ <image class='title-image' src='http://www.5ijim.com/images/course_banner.jpg'></image>
+</view>
+<view class="story-lists">
+  <view class="box">
+      <view class="text">
+          <text>寻找彩虹之旅</text> 
+          <view class="des">
+            <text>通过科学绘本认识各种颜色，通过游戏寻找生活中的各种颜色。在认识颜色的基础上，体验将两种以上不同颜色混合获得新的颜色。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/a1.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>小新的秘密</text>
+          <view class="des">
+            <text>认识空气的存在，了解空气的重要性，并根据空气的性质，通过科学实验探究，进一步体验空气的存在和作用。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/a2.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>喜欢对称的花大姐</text>
+          <view class="des">
+            <text>认识瓢虫，了解瓢虫与人类的关系，初步了解对称图形，设计创作简单的对称图形。了解瓢虫的生长流程，并通过舞台剧表演出来。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/a4.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>企鹅的冰屋</text>
+          <view class="des">
+            <text>了解企鹅的生活，通过观察冰和水之间的变化，发现影响冰块融化速度的因素，体验制造冰块，解决全球变暖中企鹅面临的危机。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/a3.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>可爱的小浣熊</text>
+          <view class="des">
+            <text>了解浣熊的外形特征和一般习性，总结出人和动物取暖的方法，并制作纸袋浣熊进行舞台剧表演。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/a6.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>神奇画笔</text>
+          <view class="des">
+            <text>通过实验探究活动，了解油墨溶解特点，观察并总结普通颜料和水溶性颜料遇水的变化，通过对比实验探究不同液体对水溶性颜料的影响。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/b5.jpg" class="payico"></image>
+      </view>
+  </view>
+  <include src='../model/model.wxml'/>
+</view>

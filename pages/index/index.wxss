@@ -1,0 +1,239 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  background-color: #F8F8F8;
+
+}
+.page-body{
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.page-section{
+  width: 100%;
+}
+.page-section-spacing{
+  box-sizing: border-box;
+  padding: 0 80rpx;
+}
+swiper-item{
+  display: block;
+  height: 150px;
+}
+
+.slide-image{
+  width:100%;
+   height:235rpx; 
+}
+
+.plate{
+  height:240rpx;
+  background: #fff;
+}
+.plate-item{
+  display: flex;
+  float:left;
+  position: relative;
+  width: 140rpx;
+  height:180rpx;
+  margin-top:38rpx; 
+  margin-left:42rpx;
+  flex-direction:column;
+}
+.plate-item-content{
+  width: 100rpx;
+  height: auto;
+  
+  text-align: center;
+}
+.plate-item-content image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.plate-item-content .plate-info{
+  /* padding-left: 13rpx; */
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+} 
+
+.title{
+ font-size: 36rpx;
+ font-family: '微软雅黑';
+ border-left:10rpx solid #4ec4c8;
+ margin-left: 20rpx;
+ margin-top: 20rpx;
+ text-indent: 15rpx;
+}
+
+.mod-item{
+ width:46%;
+ height:300rpx;
+ float: left;
+ margin-left:20rpx;
+ margin-top:40rpx;
+ position: relative;
+}
+.mod-signup{
+  position: absolute;
+}
+.mod-signup image{
+  width:76rpx;
+  height:42rpx;
+}
+.mod-img{
+  width:100%;
+  height:180rpx;
+} 
+.mod-image{
+  width: 100%;
+  height:180rpx;
+}
+.mod-title{
+  font-size:32rpx;
+  font-family: '微软雅黑';
+  display:flex;
+  height:45rpx;
+  margin-top:15rpx;
+  flex-direction:column;
+  justify-content: center;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.mod-info{
+  display: flex;
+  flex-direction: column;
+  height:40rpx;
+}
+.mod-icon{
+  display: flex;
+  flex-direction: row;
+  width: 40rpx;
+  height: 40rpx;
+}
+.icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+.moinfont{
+  font-size: 28rpx;
+  text-indent: 60rpx;
+  font-family: '微软雅黑';
+  color:#bfbfbf;
+}
+.more{
+  width:100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  border-top:1rpx solid #eeeeee;
+  position: relative;
+}
+.more-info{
+  display: flex;
+  flex-direction: column;
+  font-size:32rpx;
+  font-family: '微软雅黑';
+  line-height: 98rpx;
+  text-indent: 30rpx;
+  color:#586C94;
+}
+.icon-jt{
+  position: absolute;
+  width:60rpx;
+  height:60rpx;
+  right:0rpx;
+  top:18rpx;
+}
+.iconjtimg{
+  width:60rpx;
+  height:60rpx;
+}
+.split-bar{
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  height:10rpx;
+  background: #eeeeee;
+}
+.story-lists{
+  margin-top:15px;
+  height: 190rpx;
+  }
+.lesson-list{
+  height:200rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1rpx;
+  clear:both;
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+
+}
+.box{
+  width:70%;
+  float:left;
+  font-size: 25rpx;
+  height: 190rpx;
+  
+  }
+.img{
+  width:30%;
+  float:right;
+  }
+.description{
+  margin-top:5rpx;
+  color:#828a92;
+  line-height:35rpx;
+  overflow:hidden;
+  height:140rpx;
+  padding: 10rpx;
+  }
+ .payico{
+  width:230rpx;
+  height:190rpx;
+  } 
+  .band .lesson{
+    padding-top: 10rpx;
+    /* text-align: center; */
+  }
+.mcont{
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.mcont-li{
+  width: auto;
+  height: 200rpx;
+  display: flex;
+  flex-direction:column;
+  /* border:1px solid #00c19c; */
+  /* border-radius:15rpx; */
+}
+.li-title{
+  font-weight: bold;
+  
+  font-family: "微软雅黑";
+  float: left;
+  margin: 10rpx;
+}
+.li-content{
+  margin: 10rpx;
+  float: left;
+  text-align: left;
+  font-size: 30rpx;
+}
+   .login-view{
+  position: fixed;
+  right: 30rpx;
+  top: 950rpx;
+  height: 157rpx;
+  width: 102rpx;
+   background: red; 
+  background: url(http://www.5ijim.com/images/guide.png); 
+  background-size: 100% 100%;
+}
+.login-text{
+  position: relative;
+  left: 10rpx;
+  top: 75rpx;
+  font-size: 20rpx;
+} 

@@ -1,0 +1,97 @@
+/**about.wxss**/
+.page-phone{
+  font-family: '微软雅黑';
+}
+.header{
+  padding: 41rpx;
+  position: relative;
+}
+.wx-title{
+  height: 70rpx;
+}
+.wx-desc{
+  font-size: 32rpx;
+  color: #aaa;
+  line-height: 67rpx;
+}
+.logoimg{
+  width:300rpx;
+  height:100rpx;
+  position: absolute;
+  top:30rpx;
+  
+}
+.content{
+  padding: 41rpx;
+  border-top: 1rpx #eeeeee solid;
+  border-bottom:1rpx #eeeeee solid;
+}
+.wx-cell{
+  margin-bottom: 46rpx;
+  margin-left: 60rpx;
+  position: relative;
+}
+.icon{
+  width: 50rpx;
+  height:50rpx;
+  position: absolute;
+  left:-55rpx;
+  top:-6rpx;
+}
+.icon-postion{
+  width: 50rpx;
+  height:50rpx;
+}
+.cell-fd{
+  width: 50rpx;
+  height:50px;
+  position: absolute;
+  top:-6rpx;
+  right:0px;
+}
+.cell-bd{
+  font-size: 25rpx;
+  color:#666;
+}
+.login-view{
+  position: fixed;
+  right: 30rpx;
+  top: 950rpx;
+  height: 157rpx;
+  width: 102rpx;
+  /* background: red; */
+  background: url(http://www.5ijim.com/images/guide.png); 
+  background-size: 100% 100%;
+}
+.login-text{
+  position: relative;
+  left: 10rpx;
+  top: 75rpx;
+  font-size: 20rpx;
+}
+.app-title{
+ font-size: 36rpx;
+ font-family: '微软雅黑';
+ border-left:10rpx solid #4ec4c8;
+ margin-left: 4·0rpx;
+ margin-top: 20rpx;
+ text-indent: 15rpx;
+ 
+ font-weight: bold;
+}
+.content-title{
+  margin-left: 10rpx;
+  margin-bottom: 30rpx;
+  color:#666;
+  font-size: 30rpx;
+  /* font-weight: bold; */
+}
+.item-image{
+  width: 100%;
+}
+.button-view{
+  padding: 20rpx;
+}
+.button-view .button{
+  margin-left: 5rpx;
+}

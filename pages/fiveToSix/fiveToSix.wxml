@@ -1,0 +1,72 @@
+<view>
+ <image class='title-image' src='http://www.5ijim.com/images/course_banner.jpg'></image>
+</view>
+<view class="story-lists">
+  <view class="box">
+      <view class="text">
+          <text>泡泡变魔术</text> 
+          <view class="des">
+            <text>观察泡泡从产生到爆炸的颜色变化，发现并总结变化规律，感受光的折射，并通过实验观察各种有关液体表面张力的现象。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/c1.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>齿轮齿轮变</text>
+          <view class="des">
+            <text>通过拆解玩具认识齿轮这种简单机械，动手操作中观察齿轮的工作情况，分析大小齿轮同时转动时在方向、速度等维度的关系，并完成自己的齿轮制作。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/c2.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>电力闯关</text>
+          <view class="des">
+            <text>探究物质的导电性，能制作简单电路完成挑战，并利用导电性与电路原理，合作完成闯关游戏的制作。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/c3.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>土壤和水</text>
+          <view class="des">
+            <text>在认识土壤的基础上，对比两种不同土壤样本，通过实验了解土壤吸水性和排水性。通过模拟大自然土壤侵蚀现象，了解表层土壤我在水流下发生的改变。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/c4.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>弹球跳啊跳</text>
+          <view class="des">
+            <text>通过玩具认识球的弹跳运动，讨论影响弹球弹跳的因素，设计公平实验，测量和比较不同弹球、不同地面、不同下落高度对弹力的影响。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/c5.jpg" class="payico"></image>
+      </view>
+  </view>
+  <view class="box">
+      <view class="text">
+          <text>设计和制造小船</text>
+          <view class="des">
+            <text>通过观察学习，了解船的基本结构并通过思维导图表达。按照工业设计流程，画出设计图并选择材料，制作模型并通过检测调整改善成品。</text>
+          </view>
+      </view>
+      <view class="img">
+          <image src="http://www.5ijim.com/images/course/c6.jpg" class="payico"></image>
+      </view>
+  </view>
+  <include src='../model/model.wxml'/>
+</view>

@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/about/about",
+    "pages/threeToFour/threeToFour",
+    "pages/fourToFive/fourToFive",
+    "pages/fiveToSix/fiveToSix",
+    "pages/sixToTen/sixToTen",
+    "pages/school/school",
+    "pages/test/test",
+    "pages/model/model",
+    "pages/view/view",
+    "pages/Join/Join"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4ec4c8",
+    "navigationBarTitleText": "东大吉姆的工场",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#4ec5c9",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "课程体系",
+        "iconPath": "image/course.png",
+        "selectedIconPath": "image/courseA.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "吉姆资讯",
+        "iconPath": "image/news.png",
+        "selectedIconPath": "image/newsA.png"
+      },
+      {
+        "pagePath": "pages/school/school",
+        "text": "学校简介",
+        "iconPath": "image/school.png",
+        "selectedIconPath": "image/schoolA.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "联系我们",
+        "iconPath": "image/phone.png",
+        "selectedIconPath": "image/phoneA.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

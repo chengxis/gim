@@ -1,0 +1,17 @@
+/* pages/model/model.wxss */
+.login-view{
+  position: fixed;
+  right: 30rpx;
+  top: 950rpx;
+  height: 157rpx;
+  width: 102rpx;
+  /* background: red; */
+  background: url(http://www.5ijim.com/images/guide.png); 
+  background-size: 100% 100%;
+}
+.login-text{
+  position: relative;
+  left: 10rpx;
+  top: 75rpx;
+  font-size: 20rpx;
+}

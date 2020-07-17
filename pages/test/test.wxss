@@ -1,0 +1,67 @@
+/**about.wxss**/
+/* .page-phone{
+  font-family: '微软雅黑';
+} */
+.header{
+  padding: 41rpx;
+  position: relative;
+  text-align: center;
+}
+.header-title{
+  font-size: 46rpx;
+  font-weight: bold;
+  font-family: '微软雅黑';
+}
+.wx-desc{
+  font-size: 32rpx;
+  color: #aaa;
+  line-height: 67rpx;
+}
+.logoimg{
+  width:100%;
+  height:235rpx;
+
+}
+.input{
+    padding-left: 10px;
+    height: 44px;
+}
+.input-div{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    display: flex;
+}
+.input-view{
+    border:  1px solid #4ec4c8;
+    border-radius: 20rpx;
+    width: 75%;
+    height:92rpx;
+
+}
+.input-text{
+  margin-top: 20rpx;
+  color:#4ec4c8;
+  
+}
+.select{ 
+  position: relative; 
+  margin: 20rpx auto; 
+  width: 200rpx; height: 
+  50rpx; line-height: 50rpx; 
+  border: solid 1px #ccc; 
+  background: #fff;}
+.select .select-down{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    line-height: 50rpx;
+    background: #fff;
+    /*display: none;*/
+} 
+ .select .select-down text{
+    display: block;
+    width: 100%;
+    height: 50rpx;
+    
+} 
